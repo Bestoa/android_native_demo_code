@@ -1,0 +1,22 @@
+cc_binary {
+    name: "test_sideband",
+
+    srcs: [
+        "SidebandNativeHandle.cpp",
+        "SidebandNativeHandleTest.cpp",
+    ],
+
+    shared_libs: [
+        "libcutils",
+        "libutils",
+        "libui",
+        "libgui",
+    ],
+
+    cflags: [
+        "-Wno-unused-parameter",
+        "-Wno-unused-function",
+        "-Wno-unused-variable",
+    ],
+
+}

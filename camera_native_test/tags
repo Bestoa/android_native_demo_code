@@ -1,0 +1,141 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACTION_EDIT_CONTROL	include/demo.h	/^    ACTION_EDIT_CONTROL,$/;"	e	enum:__anon2
+ACTION_NONE	include/demo.h	/^    ACTION_NONE,$/;"	e	enum:__anon2
+ACTION_SAVE_PICTURE	include/demo.h	/^    ACTION_SAVE_PICTURE,$/;"	e	enum:__anon2
+ACTION_STOP	include/demo.h	/^    ACTION_STOP,$/;"	e	enum:__anon2
+CAMERA_RETURN_FAILURE	include/camera.h	/^    CAMERA_RETURN_FAILURE,$/;"	e	enum:camera_return_type
+CAMERA_RETURN_SUCCESS	include/camera.h	/^    CAMERA_RETURN_SUCCESS = 0,$/;"	e	enum:camera_return_type
+CAMERA_STATE_LIST	include/camera.h	/^    CAMERA_STATE_LIST$/;"	e	enum:camera_state_type
+CAMERA_STATE_LIST	include/camera.h	31;"	d
+CHECK_RET	libcamera_base/camera.c	389;"	d	file:
+DEBUG	include/log.h	/^    DEBUG,$/;"	e	enum:__anon1
+DEFAULT_DEVICE	include/camera.h	22;"	d
+DEFAULT_FRAME_COUNT	include/demo.h	4;"	d
+DEFAULT_IMAGE_HEIGHT	include/camera.h	21;"	d
+DEFAULT_IMAGE_WIDTH	include/camera.h	20;"	d
+DUMP_CAP	libcamera_base/camera.c	216;"	d	file:
+DUMP_CAP	libcamera_base/camera.c	243;"	d	file:
+DUMP_ERROR	include/log.h	17;"	d
+DUMP_NONE	include/log.h	18;"	d
+ERROR	include/log.h	/^    ERROR,$/;"	e	enum:__anon1
+FRAMEUSAGE_DISPLAY	include/demo.h	/^    FRAMEUSAGE_DISPLAY  = 2,$/;"	e	enum:__anon3
+FRAMEUSAGE_SAVE	include/demo.h	/^    FRAMEUSAGE_SAVE     = 1,$/;"	e	enum:__anon3
+GRALLOC_USAGE_VIDEO_OVERLAY	ui_main.cpp	13;"	d	file:
+HAL_PIXEL_FORMAT_UYVY	ui_main.cpp	11;"	d	file:
+INFO	include/log.h	/^    INFO,$/;"	e	enum:__anon1
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE:= camera_native_test$/;"	m
+LOCAL_MODULE_TAGS	Android.mk	/^LOCAL_MODULE_TAGS := optional$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_SHARED_LIBRARIES	Android.mk	/^LOCAL_SHARED_LIBRARIES := \\$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES:= \\$/;"	m
+LOCK_USAGE	ui_main.cpp	15;"	d	file:
+LOGD	include/log.h	30;"	d
+LOGE	include/log.h	22;"	d
+LOGI	include/log.h	26;"	d
+LOG_LEVEL_END	include/log.h	/^    LOG_LEVEL_END,$/;"	e	enum:__anon1
+LOG_LEVEL_START	include/log.h	/^    LOG_LEVEL_START,$/;"	e	enum:__anon1
+MAX_BUFFER_NUM	include/camera.h	17;"	d
+MIN_BUFFER_NUM	include/camera.h	18;"	d
+STATE_EQ	libcamera_base/camera.c	375;"	d	file:
+STATE_GE	libcamera_base/camera.c	382;"	d	file:
+TR_END	include/util.h	/^    TR_END,$/;"	e	enum:__anon4
+TR_START	include/util.h	/^    TR_START,$/;"	e	enum:__anon4
+ZAP	include/camera.h	24;"	d
+_LOG_	include/log.h	2;"	d
+_TINY_CAMERA_	include/camera.h	2;"	d
+_UTIL_	include/util.h	2;"	d
+__CONVERT__	include/camera.h	41;"	d
+__CONVERT__	include/camera.h	43;"	d
+__CONVERT__	include/camera.h	71;"	d
+__CONVERT__	include/camera.h	73;"	d
+__DEMO_H_	include/demo.h	2;"	d
+__TINY_CAMERA_API_	include/api.h	2;"	d
+__camera_log	libcamera_base/log.c	/^void __camera_log(int dump_errno, int level, const char *msg, ...)$/;"	f
+addr	include/camera.h	/^    void        *addr;                      \/* Data start addr *\/$/;"	m	struct:buffer
+buf	include/camera.h	/^    struct buffer       *buf;               \/* Array of struct buffer point *\/$/;"	m	struct:buffer_queue	typeref:struct:buffer_queue::buffer
+buffer	include/camera.h	/^struct buffer {$/;"	s
+buffer_queue	include/camera.h	/^struct buffer_queue {$/;"	s
+bufq	include/camera.h	/^    struct buffer_queue     bufq;$/;"	m	struct:v4l2_camera	typeref:struct:v4l2_camera::buffer_queue
+camera_close_device	libcamera_base/camera.c	/^int camera_close_device(struct v4l2_camera *cam)$/;"	f
+camera_create_object	libcamera_base/camera.c	/^struct v4l2_camera *camera_create_object()$/;"	f
+camera_dequeue_buffer	libcamera_base/camera.c	/^int camera_dequeue_buffer(struct v4l2_camera *cam, struct v4l2_buffer *buffer_info)$/;"	f
+camera_free_object	libcamera_base/camera.c	/^int camera_free_object(struct v4l2_camera *cam)$/;"	f
+camera_get_buffer	libcamera_base/camera.c	/^int camera_get_buffer(struct v4l2_camera *cam, struct v4l2_buffer *buffer_info, struct buffer *buffer)$/;"	f
+camera_get_control	libcamera_base/camera.c	/^int camera_get_control(struct v4l2_camera *cam, struct v4l2_control *ctrl)$/;"	f
+camera_get_output_format	libcamera_base/camera.c	/^int camera_get_output_format(struct v4l2_camera *cam)$/;"	f
+camera_open_device	libcamera_base/camera.c	/^int camera_open_device(struct v4l2_camera *cam)$/;"	f
+camera_query_cap	libcamera_base/camera.c	/^int camera_query_cap(struct v4l2_camera *cam)$/;"	f
+camera_query_support_control	libcamera_base/camera.c	/^int camera_query_support_control(struct v4l2_camera *cam)$/;"	f
+camera_query_support_format	libcamera_base/camera.c	/^int camera_query_support_format(struct v4l2_camera *cam)$/;"	f
+camera_queue_buffer	libcamera_base/camera.c	/^int camera_queue_buffer(struct v4l2_camera *cam, struct v4l2_buffer *buffer_info)$/;"	f
+camera_request_and_map_buffer	libcamera_base/camera.c	/^int camera_request_and_map_buffer(struct v4l2_camera *cam)$/;"	f
+camera_return_and_unmap_buffer	libcamera_base/camera.c	/^int camera_return_and_unmap_buffer(struct v4l2_camera *cam)$/;"	f
+camera_return_type	include/camera.h	/^enum camera_return_type {$/;"	g
+camera_set_control	libcamera_base/camera.c	/^int camera_set_control(struct v4l2_camera *cam, struct v4l2_control *ctrl)$/;"	f
+camera_set_output_format	libcamera_base/camera.c	/^int camera_set_output_format(struct v4l2_camera *cam)$/;"	f
+camera_start_capturing	libcamera_base/camera.c	/^int camera_start_capturing(struct v4l2_camera *cam)$/;"	f
+camera_state_to_string	include/camera.h	/^static inline char * camera_state_to_string(enum camera_state_type type)$/;"	f
+camera_state_type	include/camera.h	/^enum camera_state_type {$/;"	g
+camera_stop_capturing	libcamera_base/camera.c	/^int camera_stop_capturing(struct v4l2_camera *cam)$/;"	f
+cap	include/camera.h	/^    struct v4l2_capability  cap;$/;"	m	struct:v4l2_camera	typeref:struct:v4l2_camera::v4l2_capability
+count	include/camera.h	/^    int                 count;              \/* Total buffer number *\/$/;"	m	struct:buffer_queue
+dev_name	include/camera.h	/^    char                    *dev_name;      \/* Device name *\/$/;"	m	struct:v4l2_camera
+display_frame	cam_main.c	/^static int display_frame(struct v4l2_camera *cam, struct buffer buffer)$/;"	f	file:
+dump_output_format	libcamera_base/camera.c	/^static void dump_output_format(struct v4l2_camera *cam)$/;"	f	file:
+end	include/util.h	/^    struct timeval end;$/;"	m	struct:time_recorder	typeref:struct:time_recorder::timeval
+enumerate_menu	libcamera_base/camera.c	/^static void enumerate_menu(struct v4l2_camera *cam, struct v4l2_queryctrl ctrl, int id)$/;"	f	file:
+fd	include/camera.h	/^    int                     fd;$/;"	m	struct:v4l2_camera
+fmt	include/camera.h	/^    struct v4l2_format      fmt;            \/* Output format *\/$/;"	m	struct:v4l2_camera	typeref:struct:v4l2_camera::v4l2_format
+fmt2desc	libcamera_base/util.c	/^char *fmt2desc(int fmt)$/;"	f
+get_log_level	libcamera_base/log.c	/^int get_log_level()$/;"	f
+help	libcamera_base/util.c	/^void help(void)$/;"	f
+log_level	libcamera_base/log.c	/^static int log_level = INFO;$/;"	v	file:
+mFrameH	ui_main.cpp	/^int mFrameH = 0;$/;"	v
+mFrameW	ui_main.cpp	/^int mFrameW = 0;$/;"	v
+mSurface	ui_main.cpp	/^sp<Surface> mSurface;$/;"	v
+mSurfaceComposerClient	ui_main.cpp	/^sp<SurfaceComposerClient> mSurfaceComposerClient;$/;"	v
+mSurfaceControl	ui_main.cpp	/^sp<SurfaceControl> mSurfaceControl;$/;"	v
+mWindow	ui_main.cpp	/^ANativeWindow* mWindow;$/;"	v
+main	cam_main.c	/^int main(int argc, char **argv)$/;"	f
+mainloop	cam_main.c	/^static void mainloop(struct v4l2_camera *cam)$/;"	f	file:
+mapper	ui_main.cpp	/^GraphicBufferMapper& mapper = GraphicBufferMapper::get();$/;"	v
+priv	include/camera.h	/^    void                    *priv;          \/* user spec data *\/$/;"	m	struct:v4l2_camera
+push_frame	ui_main.cpp	/^int push_frame(void *addr, int w, int h)$/;"	f
+read_frame	cam_main.c	/^static int read_frame(struct v4l2_camera *cam, int (*func)(struct v4l2_camera *, struct buffer))$/;"	f	file:
+save_buffer	libcamera_base/util.c	/^int save_buffer(struct buffer buffer, char * ext)$/;"	f
+set_log_level	libcamera_base/log.c	/^void set_log_level(int l)$/;"	f
+size	include/camera.h	/^    size_t      size;                       \/* Data size *\/$/;"	m	struct:buffer
+start	include/util.h	/^    struct timeval start;$/;"	m	struct:time_recorder	typeref:struct:time_recorder::timeval
+state	include/camera.h	/^    int                     state;          \/* Current state *\/$/;"	m	struct:v4l2_camera
+state	include/util.h	/^    int state;$/;"	m	struct:time_recorder
+time_recorder	include/util.h	/^struct time_recorder {$/;"	s
+time_recorder_end	libcamera_base/util.c	/^void time_recorder_end(struct time_recorder *tr)$/;"	f
+time_recorder_print_time	libcamera_base/util.c	/^void time_recorder_print_time(struct time_recorder *tr, const char *msg)$/;"	f
+time_recorder_start	libcamera_base/util.c	/^void time_recorder_start(struct time_recorder *tr)$/;"	f
+v4l2_alloc_camera_object	libcamera_base/camera.c	/^static struct v4l2_camera *v4l2_alloc_camera_object()$/;"	f	file:
+v4l2_camera	include/camera.h	/^struct v4l2_camera {$/;"	s
+v4l2_close_device	libcamera_base/camera.c	/^static void v4l2_close_device(struct v4l2_camera *cam)$/;"	f	file:
+v4l2_dequeue_buffer	libcamera_base/camera.c	/^static int v4l2_dequeue_buffer(struct v4l2_camera *cam, struct v4l2_buffer *buffer_info)$/;"	f	file:
+v4l2_free_camera_object	libcamera_base/camera.c	/^static void v4l2_free_camera_object(struct v4l2_camera *cam)$/;"	f	file:
+v4l2_get_buffer	libcamera_base/camera.c	/^static int v4l2_get_buffer(struct v4l2_camera *cam, struct v4l2_buffer *buffer_info, struct buffer *buffer)$/;"	f	file:
+v4l2_get_control	libcamera_base/camera.c	/^static int v4l2_get_control(struct v4l2_camera *cam, struct v4l2_control *ctrl)$/;"	f	file:
+v4l2_get_output_format	libcamera_base/camera.c	/^static void v4l2_get_output_format(struct v4l2_camera *cam)$/;"	f	file:
+v4l2_open_device	libcamera_base/camera.c	/^static int v4l2_open_device(struct v4l2_camera *cam)$/;"	f	file:
+v4l2_query_cap	libcamera_base/camera.c	/^static int v4l2_query_cap(struct v4l2_camera *cam)$/;"	f	file:
+v4l2_query_support_control	libcamera_base/camera.c	/^static void v4l2_query_support_control(struct v4l2_camera *cam)$/;"	f	file:
+v4l2_query_support_format	libcamera_base/camera.c	/^static void v4l2_query_support_format(struct v4l2_camera *cam)$/;"	f	file:
+v4l2_queue_buffer	libcamera_base/camera.c	/^static int v4l2_queue_buffer(struct v4l2_camera *cam, struct v4l2_buffer *buffer_info)$/;"	f	file:
+v4l2_request_and_map_buffer	libcamera_base/camera.c	/^static int v4l2_request_and_map_buffer(struct v4l2_camera *cam)$/;"	f	file:
+v4l2_return_and_unmap_buffer	libcamera_base/camera.c	/^static void v4l2_return_and_unmap_buffer(struct v4l2_camera *cam)$/;"	f	file:
+v4l2_set_control	libcamera_base/camera.c	/^static int v4l2_set_control(struct v4l2_camera *cam, struct v4l2_control *ctrl)$/;"	f	file:
+v4l2_set_output_format	libcamera_base/camera.c	/^static int v4l2_set_output_format(struct v4l2_camera *cam)$/;"	f	file:
+v4l2_start_capturing	libcamera_base/camera.c	/^static int v4l2_start_capturing(struct v4l2_camera *cam)$/;"	f	file:
+v4l2_stop_capturing	libcamera_base/camera.c	/^static void v4l2_stop_capturing (struct v4l2_camera *cam)$/;"	f	file:
+window_deinit	ui_main.cpp	/^void window_deinit()$/;"	f
+window_init	ui_main.cpp	/^int window_init(int w, int h)$/;"	f
+xioctl	include/camera.h	/^static inline int xioctl(int fd,int request,void *arg)$/;"	f
