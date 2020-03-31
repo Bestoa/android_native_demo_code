@@ -29,6 +29,7 @@ Java_com_synaptics_mfang_test_1sideband_MainActivity_setSideband(
         return;
     }
     ALOGE("+++++++++Succeed to get native window");
+    ANativeWindow_acquire(window);
 
     if (!on) {
         native_window_set_sideband_stream(window, nullptr);
@@ -36,6 +37,8 @@ Java_com_synaptics_mfang_test_1sideband_MainActivity_setSideband(
         if (sb_nativeHandle != nullptr) {
             delete sb_nativeHandle;
         }
+        sb_nativeHandle = nullptr;
+        ANativeWindow_release(window);
         return;
     }
 
@@ -50,4 +53,5 @@ Java_com_synaptics_mfang_test_1sideband_MainActivity_setSideband(
 
     ALOGE("+++++++++enter sideband");
     native_window_set_sideband_stream(window, const_cast<native_handle_t *>(nativeHandle->handle()));
+    ANativeWindow_release(window);
 }
